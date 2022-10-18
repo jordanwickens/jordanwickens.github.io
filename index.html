@@ -14,294 +14,64 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
+    <body>
         <div id="lead-content">
+            <img src="images/headshot.png" alt="Headshot" id="headshot">
             <h1>Jordan Wickens</h1>
-            <h2>Software Developer</h2>
-            <a href="resume.pdf" target="blank" class="btn-rounded-white">Download Resume</a>
+            <h2>Software Engineer</h2>
+						<div id="about-me">
+            	<p>Currently, I run a software consulting firm where I help business leaders cut operating expenses by leveraging code. </p>
+							<p>Want to get in touch?</p>
+							<a href="html/contact.html" target="blank">Send me a message!</a>
+						</div>
+						<div class="links">
+							<div class="row">
+									<section class="column">
+										<h2 id="list-header">Skills</h2>
+											<div id="list-group">
+												<ul class="list">
+													<li id="item"><img class="icon" src="images/js.png">Javascript</li>
+													<li id="item"><img class="icon" src="images/node.png"></i>Node</li>
+													<li id="item"><img class="icon" src="images/mongo.png">Mongo</li>
+													<li id="item"><img class="icon" src="images/aws.png">AWS Devops</li>
+													<li id="item"><img class="icon" src="images/docker.png">Docker</li>
+													<li id="item"><img class="icon" src="images/sql.png">MySQL</li>
+													<li id="item"><img class="icon" src="images/python.png">Python</li>
+												</ul>
+											</div>
+									</section>
+									<div class="column">
+										<h2 id="list-header">My work</h2>
+											<div id="list-group">
+												<ul class="list">
+													<li id="item"><a href="https://youtu.be/ADCZfH-uDpg" target="blank">Yardable</a></li>
+													<li id="item"><a href="https://youtube.com/shorts/9129YI7yKm0?feature=share" target="blank">ParkCo App</a></li>
+													<li id="item"><a href="https://youtu.be/n7MzZFDTVAg" target="blank">Twitch Extension</a></li>
+													<li id="item"><a href="https://youtu.be/ADCZfH-uDpg" target="blank">Crypto bot (demo coming soon)</a></li>
+												</ul>
+										</div>
+									</div>
+									<div class="column">
+											<h2 id="list-header">Links</h2>
+												<div id="list-group">
+													<ul class="list">
+														<li id="item"><a href="https://www.fluxuous.com/blog/" target="blank">Blog</a></li>
+														<li id="item"><a href="https://github.com/jordanwickens" target="blank">GitHub</a></li>
+														<li id="item"><a href="resume.pdf" target="blank">Download Resume</a></li>
+													</ul>
+											</div>
+										</div>
+							</div>
+
+
+            </div>
+
         </div>
         <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am a software engineer/consultant. My tech background is well-versed but <i><b>I am most skilled as a Javascript and Node developer.</b></i> Due to my experience working with startups, I can fill many roles that leverage my
-                        fullstack, and hardware/IoT skills. 
-                        
-                        <br><br>
-                        Something that separates me from the average developer is that <i><b>I bring a deep understanding of how business works</b></i> and take a deep interest in it. I waste no time in getting things done and 
-                        understand requirements with ease. I also have exceptional communication skills which I continue to develop as a software consultant where it is an essential skill in communicating with clients.
 
-                        <br><br>
-                        I have a wide variety of interests in and out of the tech world. I'm a muay thai fighter and I play chess and piano. I also do outdoor activities like ATV off-roading and fishing.
-
-                        <br><br>
-                        I am currently looking for a full time role as a web developer (Javascript/Node) and a lot of my efforts are going to towards using modern Javascript frameworks like React and Vue. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="February 2021 – Present">
-                <h3>Fluxuous Inc.</h3>
-                <h4>Software Consultant</h4>
-                <p>
-                    I am responsible for <i><b>fulfilling the needs of clients in many different industries.</b></i> I work with clients in the property development space,
-                    finance/capital markets space, and gaming industry. The goal is automating processes and using software to increase the efficiency of
-                    an organization. I work with the clients from the beginning where I assess their needs, then scope the project out, and ultimately deliver high quality,
-                    production ready code that <i><b>helps companies increase operational efficiency.</b></i>
-            </div>
-
-            <div data-date="July 2021 - September 2021">
-                <h3>ParkCo</h3>
-                <h4>Fullstack Software Engineer</h4>
-                <p>
-                    Completed an internship at ParkCo Inc, a proptech startup in Waterloo, ON where my skills were tested as a <i><b>developer in a fast-paced environment.</b></i>
-                    I played a pivotal role in deploying new features as the needs of the company expanded while also fixing bugs on the fly to help out the sales team on demo days.
-                </p>
-            </div>
-
-            <div data-date="August 2018 – August 2019">
-                <h3>Directly.com</h3>
-                <h4>Microsoft Specialist</h4>
-                <p>
-                    I work in an independent community of experts that <i><b>offer solutions to users of fortune 500 tech companies.</b></i> As a contractor for Microsoft, my role is to provide solutions to problems that a Microsoft user has regarding the Windows operating system. 
-                    I am always learning in this role because I go to great lengths by troubleshooting and researching a problem so that the user is 100% satisfied. 
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    
-    <div id="education">
-        <h2 class="heading">Education</h2>
-
-        <div class="education-block">
-            <h3>Conestoga College</h3>
-            <span class="education-date">September 2018 - 2021</span>
-            <h4>Software Engineering Technology (Co-op)</h4>
-            <h5>Relevant course work:</h5>
-            <ul>
-                <li>
-                    Programming in several languages on a variety of platforms.
-                </li>
-                <li>
-                    Controlling software quality using industry standard techniques such as effective testing, and documentation.
-                </li>
-                <li>
-                    Discuss, implement, and enhance the computer security of software solutions.
-                </li>
-                <li>
-                    Manage software projects throughout their entire lifecycle using traditional and Agile methodologies.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-<!--         
-        <div class="education-block">
-            <h3>Conestoga College</h3>
-            <span class="education-date">September 2014 - April 2015</span>
-            <h4>Electrical Engineering Technician (Co-op)</h4>
-            <p>
-                I completed one year of this program which gave me my initial exposure to working with technology. This program lead me to a co-op position with Goodlife Club Services which was a great experience that taught me a lot.
-            </p>
-        </div> -->
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-
-  
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/blackjacklogo.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Python BlackJack</h3>
-                        <p>
-                            An application I created in python that simulates the game of BlackJack.                      
-                        </p>
-                        <a href="https://github.com/jordanwickens/python-blackjack" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/chesslogo.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Best Chess Move (Being Updated!)</h3>
-                        <p>
-                           A Google Chrome extension that highlights the best move to make in real-time.                
-                        </p>
-                        <a href="https://github.com/jordanwickens/" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/yardable.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Yardable</h3>
-                        <p>
-                            Simple online booking website for yard work year-round. This makes it easy for people to get yard work done. Note that this website is no longer available,
-                            screenshots and a video can be found here.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=ADCZfH-uDpg" target="blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/worklogger.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Work Hour Logger</h3>
-                        <p>
-                            This is a console application that allows you to log important info about your work day and it saves to a file.                      
-                        </p>
-                        <a href="https://github.com/jordanwickens/work-hours-logger" target="_blank">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Javascript</li>
-            <li>Node</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>AWS for devops</li>
-            <li>Docker</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/jordan_wickens@hotmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2021 JORDAN WICKENS
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/jordanwickens" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/jordan-wickens-26397911b" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <!-- <li>
-                            <a href="https://www.facebook.com/mr.jordanwickens" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li> -->
-                        <!-- <li>
-                            <a href="https://twitter.com/jordanwickens" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
+    </body>
 
 </html>
